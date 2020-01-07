@@ -124,5 +124,5 @@ Covers:
 
 <img src="https://raw.githubusercontent.com/altsoph/paranoid_transformer/master/paranoid_transformer.png" alt="drawing" width="300"/> <img src="https://raw.githubusercontent.com/altsoph/paranoid_transformer/master/paranoid_transformer_back.png" alt="drawing" width="300"/>
 
-The resulting diary:
-....
+The resulting diary (40 Mb):
+https://github.com/altsoph/paranoid_transformer/raw/master/paranoid_transformer.pdf
