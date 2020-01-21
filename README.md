@@ -62,7 +62,7 @@ The application of this script cut the initial text flow into a subsequence of v
 At last, I trained the Critic subsystem.
 This neural network uses a [BERT](https://github.com/google-research/bert) architecture implemented again by [huggingface](https://github.com/huggingface/transformers). Again I took a public available pre-trained network model and finetuned it on my labeled 1K chunks dataset to predict the label of any given chunk.
 
-Here I used manual labeling of these chunks with two classes, GOOD/BAD. Most of the labeling was done by a friend of mine, Ivan [@kr0niker](https://www.yamshchikov.info/) Yamshchikov, and some I did myself. Overall, I used approx 1K of labeled chunks, balanced (one half of them were GOOD, the other half -- BAD).
+Here I used manual labeling of these chunks with two classes, GOOD/BAD. Most of the labeling was done by a friend of mine, Ivan [@kr0niker](https://www.yamshchikov.info/) Yamshchikov, and some I did myself. We marked a chunk as BAD in case it was grammatically incorrect or just too boring or too stupid. Overall, I used approx 1K of labeled chunks, balanced (one half of them were GOOD, the other half -- BAD).
 
 Finally, I made a pipeline that includes the Generator subsystem, some heuristic filters, and the Critic subsystem.
 Here it is a short sample of the final results:
