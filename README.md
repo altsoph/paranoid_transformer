@@ -116,6 +116,13 @@ Take a look at the example:
 
 <img src="https://raw.githubusercontent.com/altsoph/paranoid_transformer/master/handwriting.png" alt="drawing" />
 
+## Freehand drawings
+
+At some point, I realized that this diary lacks freehand drawings, so I decided to add some. I used my modification of a [pytorch implementation](https://github.com/alexis-jacq/Pytorch-Sketch-RNN) of [arXiv:1704.03477](https://arxiv.org/abs/1704.03477) trained on 
+[Quick, Draw! Dataset](https://github.com/googlecreativelab/quickdraw-dataset). Each time any of categories from the dataset appears on the page I generate and add random picture somewhere arround.
+
+<img src="https://raw.githubusercontent.com/altsoph/paranoid_transformer/master/pics_samples.png" alt="drawing" /> 
+
 ## Covers and PDF compilation
 
 I drew some covers and used the [rsvg-convert library](https://en.wikipedia.org/wiki/Librsvg) to build a PDF file from separate pages in SVG.
@@ -125,4 +132,4 @@ Covers:
 <img src="https://raw.githubusercontent.com/altsoph/paranoid_transformer/master/paranoid_transformer.png" alt="drawing" width="300"/> <img src="https://raw.githubusercontent.com/altsoph/paranoid_transformer/master/paranoid_transformer_back.png" alt="drawing" width="300"/>
 
 The resulting diary (40 Mb):
-https://github.com/altsoph/paranoid_transformer/raw/master/paranoid_transformer.pdf
+https://github.com/altsoph/paranoid_transformer/raw/master/paranoid_transformer_w_pics.pdf
