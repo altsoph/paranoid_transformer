@@ -133,3 +133,9 @@ Covers:
 
 The resulting diary (40 Mb):
 https://github.com/altsoph/paranoid_transformer/raw/master/paranoid_transformer_w_pics.pdf
+
+## Papers, publications, releases, links
+
+* ICCC 2020 Talks: Paranoid Transformer. Yana Agafonova, Alexey Tikhonov and Ivan Yamshchikov
+* Future Internet Journal: [Paranoid Transformer: Reading Narrative of Madness as Computational Approach to Creativity](https://www.mdpi.com/1999-5903/12/11/182/htm)
+* [Pre-oder the book](https://deadalivemagazine.com/press/paranoid-transformer.html)
