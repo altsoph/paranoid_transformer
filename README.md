@@ -1,9 +1,14 @@
 # Paranoid Transformer
 
-This is an attempt to make an unsupervised text generator with some specific style and form characteristics of text.
-Originaly it was published as an entry for [NaNoGenMo 2019](https://github.com/NaNoGenMo/2019/issues/142) (_National Novel Generation Month_ contest).
+## TLDR
+
+After all, this project turns to a published neural network generated book. [Check the story behind it in my Medium post](https://medium.com/altsoph/paranoid-transformer-80a960ddc90a).
 
 ## Overview
+
+
+This is an attempt to make an unsupervised text generator with some specific style and form characteristics of text.
+Originaly it was published as an entry for [NaNoGenMo 2019](https://github.com/NaNoGenMo/2019/issues/142) (_National Novel Generation Month_ contest).
 
 The general idea behind the _Paranoid Transformer_ project is to build a paranoiac-critical system based on two neural networks.
 The first network (_Paranoiac-intrusive Generator_) is a GPT-based tuned conditional language model and the second one (_Critic subsystem_) uses a BERT-based classifier that works as a filtering subsystem, so it selects the best ones from the flow of text passages. Finally, I used an existing handwriting synthesis neural network implementation to generate a nervous handwritten diary where a degree of shakiness depends on the sentiment strength of a given sentence.
