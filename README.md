@@ -2,7 +2,7 @@
 
 ## TLDR
 
-After all, this project turns to a published neural network generated book. [Check the story behind it in my Medium post](https://medium.com/altsoph/paranoid-transformer-80a960ddc90a).
+After all, this project turns into a published neural network generated book. [Check the story behind it in my Medium post](https://medium.com/altsoph/paranoid-transformer-80a960ddc90a).
 
 ## Overview
 
